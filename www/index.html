@@ -78,35 +78,37 @@
 						</select>
 					</div>
 				</div>
-				<br />
-				<div id="CalForm">
+				<br /><br /><br /><br /><br /><br /><br /><br /><br />
+				<div id="CalForm" class="jumbotron">
 					<div class="form-group">
 						<div class="col-lg">
 							<label id="label_t2" for="numero">Poids en kg: </label><br />
 							<input type="text" id="numero" class="btn btn-default" name="Number" value="" readonly>
 						</div>
 					</div>
-					<div class="form-group">
-							<div class="col-lg">
-							<div id="calculator" class="btn-group" role="group">
-								<input type="button" id="num" value="1" class="btn btn-default btn-lg" onclick="add_num(1);" />
-								<input type="button" id="num" class="btn btn-default btn-lg" value="2" onclick="add_num(2);" />
-								<input type="button" id="num" class="btn btn-default btn-lg" value="3" onclick="add_num(3);" /><br />
-								<input type="button" id="num" value="4" class="btn btn-default btn-lg" onclick="add_num(4);" />
-								<input type="button" id="num" value="5" class="btn btn-default btn-lg" onclick="add_num(5);" />
-								<input type="button" id="num" value="6" class="btn btn-default btn-lg" onclick="add_num(6);" /><br />
-								<input type="button" id="num" class="btn btn-default btn-lg" value="7" onclick="add_num(7);" />
-								<input type="button" id="num" class="btn btn-default btn-lg" value="8" onclick="add_num(8);" />
-								<input type="button" id="num" class="btn btn-default btn-lg" value="9" onclick="add_num(9);" /><br />
-								<input type="button" id="num" class="btn btn-default btn-lg" value="," onclick="add_comma();" />
-								<input type="button" value="0" id="num" class="btn btn-default btn-lg" onclick="add_num(0);" />
-								<input disabled type="button" id="rem" value="<" class="btn btn-danger btn-lg" onclick="rem_num();" />
-							</div><br /><br />
-							<input disabled type="button" id="validate" value="Valider" class="btn btn-success btn-lg" />
+					<div class="container">
+						<div class="form-group">
+								<div class="col-lg">
+								<div id="calculator" class="btn-group" role="group"><br /><br />
+									<input type="button" id="num" value="1" class="btn btn-default btn-lg" onclick="add_num(1);" />
+									<input type="button" id="num" class="btn btn-default btn-lg" value="2" onclick="add_num(2);" />
+									<input type="button" id="num" class="btn btn-default btn-lg" value="3" onclick="add_num(3);" /><br />
+									<input type="button" id="num" value="4" class="btn btn-default btn-lg" onclick="add_num(4);" />
+									<input type="button" id="num" value="5" class="btn btn-default btn-lg" onclick="add_num(5);" />
+									<input type="button" id="num" value="6" class="btn btn-default btn-lg" onclick="add_num(6);" /><br />
+									<input type="button" id="num" class="btn btn-default btn-lg" value="7" onclick="add_num(7);" />
+									<input type="button" id="num" class="btn btn-default btn-lg" value="8" onclick="add_num(8);" />
+									<input type="button" id="num" class="btn btn-default btn-lg" value="9" onclick="add_num(9);" /><br />
+									<input type="button" id="num" class="btn btn-default btn-lg" value="," onclick="add_comma();" />
+									<input type="button" value="0" id="num" class="btn btn-default btn-lg" onclick="add_num(0);" />
+									<input disabled type="button" id="rem" value="<" class="btn btn-danger btn-lg" onclick="rem_num();" />
+								</div><br /><br />
+								<input disabled type="button" id="validate" value="Valider" class="btn btn-success btn-lg" />
+							</div>
 						</div>
 					</div>
 				</div>
-		</form>
+			</form>
 		</center>
 		<script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
