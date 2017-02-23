@@ -4,6 +4,13 @@ body {
 
 label{
 	font-size:60px;
+	font-family: sans-serif;
+}
+
+#labelt1{
+	color : white;
+	margin-right: 1000px;
+	font-size: 80px;
 }
 
 #num.btn{
