@@ -1,12 +1,10 @@
- @font-face { font-family: Escape; src: url('Escapists.ttf'); } 
 body {
 	background-color: #5387db;
-	font-family: "Escape", sans-serif;
 }
 
 label{
 	font-size:60px;
-	font-family: "Escape", sans-serif;
+	font-family: sans-serif;
 }
 
 #labelt1{
